@@ -1,5 +1,5 @@
 # Start docker ES cluster
-- docker-compose up -d
+docker-compose up -d --remove-orphan
 
 # Stop docker ES cluster
 - docker-compose down

@@ -15,4 +15,4 @@ docker-compose up -d --remove-orphan
 
 # Log stash in listening for file beat log on port 5044, please use filebeat.yml bellow for your filebeat
 
-# to install Logstash standalone outside of DOcker use logstash-standalone.yml, it will scan the log from file directly
+# to install Logstash standalone outside of DOcker use logstash-standalone.conf, it will scan the log from file directly
